@@ -355,8 +355,7 @@
           "type": "string"
         },
         "timestampValue": {
-          "type": "string",
-          "format": "date-time"
+          "type": "object"
         },
         "repeatedEnumValue": {
           "type": "array",

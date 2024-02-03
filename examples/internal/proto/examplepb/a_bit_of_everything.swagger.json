@@ -442,8 +442,7 @@
             "name": "timestampValue",
             "in": "query",
             "required": false,
-            "type": "string",
-            "format": "date-time"
+            "type": "object"
           },
           {
             "name": "repeatedEnumValue",
@@ -897,8 +896,7 @@
             "name": "timestampValue",
             "in": "query",
             "required": false,
-            "type": "string",
-            "format": "date-time"
+            "type": "object"
           },
           {
             "name": "repeatedEnumValue",
@@ -1339,8 +1337,7 @@
             "name": "timestampValue",
             "in": "query",
             "required": false,
-            "type": "string",
-            "format": "date-time"
+            "type": "object"
           },
           {
             "name": "repeatedEnumValue",
@@ -1806,8 +1803,7 @@
             "name": "timestampValue",
             "in": "query",
             "required": false,
-            "type": "string",
-            "format": "date-time"
+            "type": "object"
           },
           {
             "name": "repeatedEnumValue",
@@ -2289,8 +2285,7 @@
             "name": "timestampValue",
             "in": "query",
             "required": false,
-            "type": "string",
-            "format": "date-time"
+            "type": "object"
           },
           {
             "name": "repeatedEnumValue",
@@ -2783,8 +2778,7 @@
             "name": "timestampValue",
             "in": "query",
             "required": false,
-            "type": "string",
-            "format": "date-time"
+            "type": "object"
           },
           {
             "name": "repeatedEnumValue",
@@ -3225,8 +3219,7 @@
             "name": "timestampValue",
             "in": "query",
             "required": false,
-            "type": "string",
-            "format": "date-time"
+            "type": "object"
           },
           {
             "name": "repeatedEnumValue",
@@ -3691,8 +3684,7 @@
             "name": "timestampValue",
             "in": "query",
             "required": false,
-            "type": "string",
-            "format": "date-time"
+            "type": "object"
           },
           {
             "name": "repeatedEnumValue",
@@ -4157,8 +4149,7 @@
             "name": "timestampValue",
             "in": "query",
             "required": false,
-            "type": "string",
-            "format": "date-time"
+            "type": "object"
           },
           {
             "name": "repeatedEnumValue",
@@ -5073,8 +5064,7 @@
                   "readOnly": true
                 },
                 "createTime": {
-                  "type": "string",
-                  "format": "date-time",
+                  "type": "object",
                   "description": "Output only. Creation time of the book.",
                   "readOnly": true
                 }
@@ -5344,8 +5334,7 @@
                   "type": "string"
                 },
                 "timestampValue": {
-                  "type": "string",
-                  "format": "date-time"
+                  "type": "object"
                 },
                 "repeatedEnumValue": {
                   "type": "array",
@@ -5666,8 +5655,7 @@
                   "type": "string"
                 },
                 "timestampValue": {
-                  "type": "string",
-                  "format": "date-time"
+                  "type": "object"
                 },
                 "repeatedEnumValue": {
                   "type": "array",
@@ -6659,8 +6647,7 @@
           "type": "string"
         },
         "timestampValue": {
-          "type": "string",
-          "format": "date-time"
+          "type": "object"
         },
         "repeatedEnumValue": {
           "type": "array",
@@ -6921,8 +6908,7 @@
               "type": "string"
             },
             "timestampValue": {
-              "type": "string",
-              "format": "date-time"
+              "type": "object"
             },
             "repeatedEnumValue": {
               "type": "array",
@@ -7207,8 +7193,7 @@
           "type": "string"
         },
         "timestampValue": {
-          "type": "string",
-          "format": "date-time"
+          "type": "object"
         },
         "repeatedEnumValue": {
           "type": "array",
@@ -7592,8 +7577,7 @@
           "type": "string"
         },
         "timestampValue": {
-          "type": "string",
-          "format": "date-time"
+          "type": "object"
         },
         "repeatedEnumValue": {
           "type": "array",
@@ -7758,8 +7742,7 @@
           "readOnly": true
         },
         "createTime": {
-          "type": "string",
-          "format": "date-time",
+          "type": "object",
           "description": "Output only. Creation time of the book.",
           "readOnly": true
         }
