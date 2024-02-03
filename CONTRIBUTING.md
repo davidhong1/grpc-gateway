@@ -22,7 +22,7 @@ docker run -itv $(pwd):/grpc-gateway -w /grpc-gateway --entrypoint /bin/bash --r
         bazel run :buildifier'
 ```
 
-You may need to authenticate with GitHub to pull `docker.pkg.github.com/grpc-ecosystem/grpc-gateway/build-env`.
+You may need to authenticate with GitHub to pull `docker.pkg.github.com/davidhong1/grpc-gateway/build-env`.
 You can do this by following the steps on the [GitHub Package docs](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#authenticating-to-the-container-registry).
 
 ### Using Visual Studio Code dev containers
@@ -54,7 +54,7 @@ To make a release, follow these steps:
    recommend whether the new release should be a patch or minor release.
 1. Tag the release on `main`.
    1. The release can be created using the command line, or also through GitHub's [releases
-      UI](https://github.com/grpc-ecosystem/grpc-gateway/releases/new).
+      UI](https://github.com/davidhong1/grpc-gateway/releases/new).
    1. If you create a release using the web UI you can publish it as a draft and have it
       reviewed by another maintainer.
    1. Update the release description. Try to include some of the highlights of this release,

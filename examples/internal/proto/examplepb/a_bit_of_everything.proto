@@ -23,12 +23,12 @@ option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
     version: "1.0";
     contact: {
       name: "gRPC-Gateway project";
-      url: "https://github.com/grpc-ecosystem/grpc-gateway";
+      url: "https://github.com/davidhong1/grpc-gateway";
       email: "none@example.com";
     };
     license: {
       name: "BSD 3-Clause License";
-      url: "https://github.com/grpc-ecosystem/grpc-gateway/blob/main/LICENSE";
+      url: "https://github.com/davidhong1/grpc-gateway/blob/main/LICENSE";
     };
     extensions: {
       key: "x-something-something";
@@ -37,7 +37,7 @@ option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
   };
   // Overwriting host entry breaks tests, so this is not done here.
   external_docs: {
-    url: "https://github.com/grpc-ecosystem/grpc-gateway";
+    url: "https://github.com/davidhong1/grpc-gateway";
     description: "More about gRPC-Gateway";
   }
   schemes: HTTP;
@@ -233,7 +233,7 @@ message ABitOfEverything {
       }
     }
     external_docs: {
-      url: "https://github.com/grpc-ecosystem/grpc-gateway";
+      url: "https://github.com/davidhong1/grpc-gateway";
       description: "Find out more about ABitOfEverything";
     }
     example: "{\"int64_value\": 12, \"double_value\": 12.3}"
@@ -498,7 +498,7 @@ service ABitOfEverythingService {
     name: "ABitOfEverything"
     description: "ABitOfEverythingService description -- which should not be used in place of the documentation comment!"
     external_docs: {
-      url: "https://github.com/grpc-ecosystem/grpc-gateway";
+      url: "https://github.com/davidhong1/grpc-gateway";
       description: "Find out more about EchoService";
     }
   };
@@ -587,7 +587,7 @@ service ABitOfEverythingService {
     option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_operation) = {
       deprecated: true // For testing purposes.
       external_docs: {
-        url: "https://github.com/grpc-ecosystem/grpc-gateway";
+        url: "https://github.com/davidhong1/grpc-gateway";
         description: "Find out more about GetQuery";
       }
       security: {}
@@ -617,7 +617,7 @@ service ABitOfEverythingService {
       summary: "Summary: Echo rpc";
       tags: "echo rpc";
       external_docs: {
-        url: "https://github.com/grpc-ecosystem/grpc-gateway";
+        url: "https://github.com/davidhong1/grpc-gateway";
         description: "Find out more Echo";
       }
       responses: {
@@ -797,7 +797,7 @@ message SnakeEnumRequest {
 message SnakeEnumResponse {}
 
 // Required message type -> OpenAPI
-// https://github.com/grpc-ecosystem/grpc-gateway/issues/2837
+// https://github.com/davidhong1/grpc-gateway/issues/2837
 message RequiredMessageTypeRequest {
   string id = 1 [(google.api.field_behavior) = REQUIRED];
   Foo foo = 2 [(google.api.field_behavior) = REQUIRED];

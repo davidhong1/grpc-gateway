@@ -2,7 +2,7 @@ module github.com/davidhong1/grpc-gateway/v2
 
 go 1.19
 
-replace github.com/grpc-ecosystem/grpc-gateway/v2 => ./
+replace github.com/davidhong1/grpc-gateway/v2 => ./
 
 require (
 	github.com/antihax/optional v1.0.0

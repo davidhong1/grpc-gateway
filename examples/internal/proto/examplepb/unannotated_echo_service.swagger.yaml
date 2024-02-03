@@ -7,11 +7,11 @@ openapiOptions:
           title: Unannotated Echo
           contact:
             name: gRPC-Gateway project
-            url: https://github.com/grpc-ecosystem/grpc-gateway
+            url: https://github.com/davidhong1/grpc-gateway
             email: none@example.com
           license:
             name: BSD 3-Clause License
-            url: https://github.com/grpc-ecosystem/grpc-gateway/blob/main/LICENSE
+            url: https://github.com/davidhong1/grpc-gateway/blob/main/LICENSE
           version: "1.0"
           extensions:
             x-something-something: yadda
@@ -66,7 +66,7 @@ openapiOptions:
                   - write
         externalDocs:
           description: More about gRPC-Gateway
-          url: https://github.com/grpc-ecosystem/grpc-gateway
+          url: https://github.com/davidhong1/grpc-gateway
         extensions:
           x-grpc-gateway-baz-list:
             - one
@@ -77,7 +77,7 @@ openapiOptions:
       option:
         description: "UnannotatedEchoService description -- which should not be used in place of the documentation comment!"
         external_docs:
-          url: "https://github.com/grpc-ecosystem/grpc-gateway"
+          url: "https://github.com/davidhong1/grpc-gateway"
           description: "Find out more about UnannotatedEchoService"
   method:
     - method: grpc.gateway.examples.internal.proto.examplepb.UnannotatedEchoService.Echo
@@ -85,7 +85,7 @@ openapiOptions:
         description: "Description Echo"
         summary: "Summary: Echo rpc"
         external_docs:
-          url: "https://github.com/grpc-ecosystem/grpc-gateway"
+          url: "https://github.com/davidhong1/grpc-gateway"
           description: "Find out more Echo"
         responses:
           "200":
@@ -108,7 +108,7 @@ openapiOptions:
           description: "A simple message with many types"
           required: ["id"]
         external_docs:
-          url: "https://github.com/grpc-ecosystem/grpc-gateway"
+          url: "https://github.com/davidhong1/grpc-gateway"
           description: "Find out more about UnannotatedSimpleMessage"
         example: '{"id": "myid"}'
   field:
